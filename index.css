@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.testFont1{
+
+    font-family: "Raleway", sans-serif;
+
+}
+
+.testFont2{
+    font-family: "Inter", sans-serif;
+}
+
+.testFont3{
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar{
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: row;
+}
+
+.navLink{
+    display: flex;
+    font-family: "Inter", sans-serif;
+}
+
+
+.signUpButton{
+    width: 120px;
+    height:50px;
+    
+}
+
+.topBanner{
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+}
+
+:hover.sec2Button{
+    color: white ; 
+    background-color: #0B7077;
+}
+
+
+.crossLine{
+    text-decoration: line-through;
+}
+
+.st_card1{
+    position: absolute;
+}
+
+.blackDiv{
+    position: relative;
+    top: 12.5rem ;
+    left:4rem ;
+}
+
+.footerBG{
+    
+    position: absolute;
+
+}
+
+.footerContent{
+
+    position: relative;
+    top:9rem ;
+
+
+}
+
+.footerSearchBox{
+    position: absolute;
+}
+
+
+.footerSearchBox::placeholder{
+    color:#0B7077;
+    font-weight: 500;
+    opacity: 0.5;
+    font-size: 16px;
+}
+
+.inputButton{
+    position: relative;
+    top: 27px;
+    left: 18rem;
+}
